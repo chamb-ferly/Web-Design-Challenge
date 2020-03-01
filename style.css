@@ -1,0 +1,45 @@
+/* Web Design Style Sheet */
+body {background-color:#d1d1d1}
+
+.navbar-brand { 
+    margin-left: 35px; 
+    padding: inherit; 
+    font-weight: bold; 
+    background-color: #1fc2ba;}
+.navbar-nav {
+    font-size: 20px;}
+.navbar {padding: 10px;
+    color: #e0e0e0;}
+
+/* #container {margin: 20px 80px ;
+    padding: 20px 80px;} */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+      }
+#main-content {float: left;}
+#side-bar {float: right;}
+
+
+h1 {font-family: serif ;
+    font-weight: bold;
+    font-size: 50px;
+    color: #26ada7;
+    text-align: center;}
+
+h2 {font-family: serif ;
+    font-weight: bold;
+    font-size: 30px;
+    color: #26ada7;
+    text-align: center;}
+
+p {font: Arial; 
+    font-size: 14pt;}
+
+h3 {font-family: serif ;
+    font-weight: bold;
+    font-size: 50px;
+    color: #26ada7;
+    text-align: center;}
